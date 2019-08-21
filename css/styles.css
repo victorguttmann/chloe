@@ -1,0 +1,21 @@
+span.underline-italic {
+  font-style: italic;
+  text-decoration: underline;
+}
+
+#greeting {
+  text-align: center;
+  color:grey;
+}
+
+.medication-info {
+
+}
+
+.container {
+  background-color: lightyellow;
+}
+
+h2 {
+  color:grey;
+}

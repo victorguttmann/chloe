@@ -2,69 +2,98 @@
 <html>
   <head>
     <title>Chlo-Chlo.com</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
   </head>
   <body>
     <div class="container">
 
-      <div class="feeding-schedule-instructions">
-        <h2>Feeding Schedule & Instructions</h2>
-        <p>Feeding Instructions:</p>
-        <p>Chloe only eats 2 things for her meals</p>
-        <ul>
-          <li>1/4 can of Costco Kirkland Signature premium white chicken breast</li>
-          <li>1 scoop of American Journey kibble (Chewy.com-specific brand)</li>
-        </ul>
-        <p>Feeding Schedule:</p>
-        <ul>
-          <li>7am - First Breakfast - Chicken</li>
-          <li>9am - Second Breakfast - Kibble</li>
-          <li>12pm - Lunch - Kibble</li>
-          <li>3:30pm - Fist Dinner - Chicken</li>
-          <li>4:30pm - Second Dinner - Kibble</li>
-        </ul>
-      </div>
+      <h1 id="greeting">Thank you for taking care of Chloe!</h1>
+      <br>
+      <div class="row">
+          <div class="col-md-6">
+            <div class="feeding-schedule-instructions">
+              <h2>Feeding Instructions & Schedule</h2>
+              <p><span class="underline-italic">Feeding Instructions:</span></p>
+              <p>Chloe only eats 2 things for her meals</p>
+              <ul>
+                <li>1/4 can of Costco Kirkland Signature premium white chicken breast</li>
+                <li>1 scoop of American Journey kibble (Chewy.com-specific brand)</li>
+              </ul>
+              <p><span class="underline-italic">Feeding Schedule (all times are rough):</span></p>
+              <ul>
+                <li>7am - First Breakfast - Chicken</li>
+                <li>9am - Second Breakfast - Kibble</li>
+                <li>12pm - Lunch - Kibble</li>
+                <li>3:30pm - Fist Dinner - Chicken</li>
+                <li>4:30pm - Second Dinner - Kibble</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="medication-info">
+              <h2>Medication Info</h2>
+              <ul>
+                <li>Carprofen (NSAID) - 1/2 pill with each serving of chicken</li>
+                <li>Proin - 1/2 pill with each serving of chicken</li>
+                <li>Aller-Tec - 1 pill with each serving of chicken</li>
+                <li>Cosequin DS - 1 pill with each serving of chicken</li>
+              </ul>
+            </div>
+            <div class="medical-issues">
+              <h2>Known Medical Issues</h2>
+              <ul>
+                <li>Arthritis - treated with Carprofen</li>
+                <li>Weak Bladder - treated with Proin</li>
+                <li>Allergies - treated with Aller-Tec</li>
+                <li>Joint Fatigue - treated with Cosequin DS</li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
-      <div class="medical-issues">
-        <h2>Known Medical Issues</h2>
-        <ul>
-          <li>Arthritis - treated with Carprofen, listed in Medication Info section</li>
-          <li>Leaky Bladder - treated with Proin, listed in Medication Info section</li>
-          <li>Allergies - treated with Aller-Tec, listed in Medication Info section</li>
-        </ul>
-      </div>
 
-      <div class="medication-info">
-        <h2>Medication Info</h2>
-        <ul>
-          <li>Fist Breakfast</li>
-          <li>Second Breakfast</li>
-          <li>Lunch</li>
-          <li>Fist Dinner</li>
-          <li>Second Dinner</li>
-        </ul>
-      </div>
 
-      <div class="veterinarian-info">
-        <h2>Veterinarian Info</h2>
-        <ul>
-          <li>Fist Breakfast</li>
-          <li>Second Breakfast</li>
-          <li>Lunch</li>
-          <li>Fist Dinner</li>
-          <li>Second Dinner</li>
-        </ul>
-      </div>
 
-      <div class="victor-contact-info">
-        <h2>Victor's Contact Info</h2>
-        <ul>
-          <li>Fist Breakfast</li>
-          <li>Second Breakfast</li>
-          <li>Lunch</li>
-          <li>Fist Dinner</li>
-          <li>Second Dinner</li>
-        </ul>
-      </div>
+
+        <div class="row">
+            <div class="col-sm">
+              <div class="veterinarian-info">
+                <h2>Veterinarian's Contact Info</h2>
+                <p>Note, Chloe <em>hates</em> this vet - use as a last resort</p>
+                <ul>
+                  <li>Dr. Raj</li>
+                  <li><a href="http://abcpetsanramon.com/">ABC Pet Clinic</a></li>
+                  <li><a href="tel:9258558195">Phone: (925) 855-8195</a></li>
+                  <li><a href="https://goo.gl/maps/9MmTHm1XwcCsz1yv5">Address: 2259 San Ramon Valley Blvd, San Ramon CA 94583</a></li>
+                  <li>Address Landmark: Directly across the street from In N Out</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="victor-contact-info">
+                <h2>Victor's Contact Info</h2>
+                <ul>
+                  <li><a href="mailto:victorguttmann@gmail.com subject=Chloe text">Email Victor</a></li>
+                  <li><a href="tel:4159968846">Phone: (415) 996-8846</a></li>
+                </ul>
+              </div>
+              <div class="cynthia-contact-info">
+                <h2>Cynthia's Contact Info</h2>
+                <ul>
+                  <li><a href="mailto:cynthia.ponce21@gmail.com subject=Chloe text">Email Cynthia</a></li>
+                  <li><a href="tel:5103054692">Phone: (510) 305-4692</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
 
     </div>
   </body>
